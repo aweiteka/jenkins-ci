@@ -1,8 +1,9 @@
 FROM openshift/jenkins-1-centos7
 
 USER root
-RUN rm -rf /opt/openshift/configuration/jobs && \
-    rm -rf /opt/openshift/configuration/config.xml
+RUN rm -rf /opt/openshift/configuration/jobs
+    #&& \
+    #rm -rf /opt/openshift/configuration/config.xml
 
 # Copy the Jenkins configuration and jobs to Jenkins config dir
 COPY configuration/ /opt/openshift/configuration/

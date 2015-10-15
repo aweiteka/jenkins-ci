@@ -22,7 +22,7 @@ for name in $(get_is_names); do
 done
 
 echo "Processing Jenkins Kubernetes configuration (${CONFIG_PATH}) ..."
-envsubst < "${CONFIG_PATH}.tpl" > "${CONFIG_PATH}" && rm -f "${CONFIG_PATH}.tpl"
+#envsubst < "${CONFIG_PATH}.tpl" > "${CONFIG_PATH}" && rm -f "${CONFIG_PATH}.tpl"
 
 # Don't show these in the Jenkins UI
 unset oc_auth oc_cmd K8S_PLUGIN_POD_TEMPLATES

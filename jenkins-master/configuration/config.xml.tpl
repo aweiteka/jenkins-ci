@@ -117,7 +117,7 @@
     </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView>
   </views>
   <primaryView>All</primaryView>
-  <slaveAgentPort>49187</slaveAgentPort>
+  <slaveAgentPort>0</slaveAgentPort>
   <label>master</label>
   <nodeProperties/>
   <globalNodeProperties/>

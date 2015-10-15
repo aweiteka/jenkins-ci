@@ -111,7 +111,8 @@
           "type": "Git",
           "contextDir": "jenkins-master",
           "git": {
-            "uri": "https://github.com/aweiteka/jenkins-ci.git"
+            "uri": "https://github.com/aweiteka/jenkins-ci.git",
+            "ref": "http-insecure"
           }
         },
         "strategy": {
